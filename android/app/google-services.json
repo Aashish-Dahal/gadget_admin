@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840957785330",
+    "project_id": "jandj-admin-panel",
+    "storage_bucket": "jandj-admin-panel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840957785330:android:945277aa59dd0d83208c6b",
+        "android_client_info": {
+          "package_name": "com.example.admin_panel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840957785330-mhg7kg8q96s114ti977s1sm3sg2bi8vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBwbyPPs8EmDoUJcFJwhjvOljzUzL16mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840957785330-mhg7kg8q96s114ti977s1sm3sg2bi8vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
