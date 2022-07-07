@@ -9,7 +9,7 @@ class AppTheme {
         brightness: Brightness.light,
         primarySwatch: AppColors.primary,
         fontFamily: FontConstants.fontFamily,
-        scaffoldBackgroundColor: AppColors.primaryColor,
+        scaffoldBackgroundColor: Colors.white,
         primaryColorDark: AppColors.primary.shade700,
         primaryColorLight: AppColors.primary.shade100,
         textTheme: TextTheme(
@@ -28,6 +28,27 @@ class AppTheme {
               getSemiBoldStyle(color: Colors.white, fontSize: FontSize.s16),
           bodyText2:
               getRegularStyle(color: Colors.white, fontSize: FontSize.s14),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          isDense: true,
+          filled: true,
+          border: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(
+            8,
+          )),
+          focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(
+            8,
+          )),
+          enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(
+            8,
+          )),
+          errorBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(
+            8,
+          )),
+          fillColor: AppColors.primaryColor.withOpacity(.1),
         ),
         appBarTheme: AppBarTheme(
             elevation: 0,
